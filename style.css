@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+   
+   
+}
+
+#upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+
+.box{
+    background-color:black;
+    min-height: 200px;
+    min-width: 200px;
+    border: 2px solid white;
+    
+    border-image: linear-gradient(45deg, purple, orange) 1;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    row-gap: 40px;
+}
+
+#title{
+    color: #17A589;
+    animation: hue 5s infinite ;
+    transition: all ease .2s;
+}
+
+.quote-box{
+    font-size:medium;
+    padding:10px;
+    width: 400px;
+    height: auto;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, rgb(0, 128, 0), rgb(211, 3, 3)) 1;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn{
+    width:50%;
+    height:10% ;
+    background: transparent;
+    border: 3px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all ease .5s; 
+}
+
+#btn:hover{
+   background-color: rgba(255, 255, 255, .1);
+   border-image: linear-gradient(45deg, rgb(251, 3, 32), orange) 1;
+}
+#Quote{
+    margin: auto;
+}
