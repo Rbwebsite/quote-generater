@@ -76,6 +76,19 @@ body{
     transition: all ease .5s; 
 }
 
+#copyQuote{
+    width:50%;
+    height:10% ;
+    background: transparent;
+    border: 3px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all ease .5s; 
+}
+
 #btn:hover{
    background-color: rgba(255, 255, 255, .1);
    border-image: linear-gradient(45deg, rgb(251, 3, 32), orange) 1;
